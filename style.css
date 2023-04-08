@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url("images/crop.jpg");
+}
+.container{
+    display: flex;
+    height: 400px;
+    width: 480px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: center;
+    left: 10px;
+    right: 50px;
+    top: 50px;
+    bottom: 50px;
+    background-color: #54a7b0;    
+    border-radius: 30px; 
+    border-style:ridge;   
+    position: flex; 
+}
+.temp-convert{
+    width: 100%;
+    padding: 0 30px;
+    margin: 25px 0; 
+    color:#f5f9f9;
+}
+.title{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.571);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0;
+}
+.temp-cal-input{
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.temp-cal-input p{
+    font-size: 20px;
+    font-weight:600;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    flex-basis: 35%;
+    font-family:'Times New Roman', Times, serif;
+}
+.temp-cal-input input{
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 24px;
+    border-radius: 12px;
+    color: #000000;
+    background: #fcfdfa;
+    width: 55%;
+    padding: 10px;
+    flex-basis: 65%;
+}
+
+
+#degree{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#degree span{
+    flex-basis: 48%;
+}
+#degree span p{
+    font-size: 20px;
+    font-weight:600;
+    align-items: center;
+    text-align: center;
+    color:#fefefe;;
+    padding: 5px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#degree span select{
+    width: 100%;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background: #fefefe;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn input{
+    font-size: 17px;
+    background-color: #3680d9;
+    padding: 10px;
+    flex-basis: 48%;
+    color: #f5f9f9;
+    flex-wrap: wrap;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.title{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.571);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0;
+}
